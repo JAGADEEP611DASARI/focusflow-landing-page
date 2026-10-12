@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description" content="FocusFlow helps you plan your day, focus deeply, and make progress that feels good.">
+  <title>FocusFlow — Make space for your best work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="FocusFlow home"><span class="logo-icon">f</span> focusflow<span class="period">.</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#testimonials">Stories</a>
+      <a class="nav-cta" href="#get-started">Get started <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR DAY, WITH MORE INTENTION</div>
+        <h1>Make space for<br>your <span>best work.</span></h1>
+        <p class="hero-text">A calmer way to plan your day, protect your focus, and turn your to-do list into meaningful progress.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#get-started">Start your free journey <span>↗</span></a>
+          <a class="button secondary" href="#features"><span class="play-icon">▶</span> Explore features</a>
+        </div>
+        <div class="social-proof">
+          <div class="avatars"><span>J</span><span>M</span><span>A</span><span>K</span></div>
+          <div><div class="stars">★★★★★</div><p><strong>4.9/5</strong> from people finding their flow</p></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Preview of the FocusFlow daily planner">
+        <div class="decor decor-one"></div><div class="decor decor-two"></div>
+        <div class="dashboard">
+          <div class="dashboard-head"><div><span class="tiny-label">MONDAY, OCTOBER 12</span><h2>Your day, in flow.</h2></div><div class="profile">JD</div></div>
+          <div class="progress-box"><div class="progress-copy"><span>Daily progress</span><strong>68%</strong></div><div class="progress-track"><span></span></div><small>You're building great momentum ✨</small></div>
+          <div class="task-heading"><strong>Today's priorities</strong><span>3 tasks</span></div>
+          <div class="task done"><span class="check">✓</span><div><strong>Plan the week</strong><small>9:00 – 9:30 AM</small></div><span class="task-tag green">Done</span></div>
+          <div class="task active"><span class="check">◷</span><div><strong>Deep work session</strong><small>10:00 – 11:30 AM</small></div><span class="task-tag purple">Focus</span></div>
+          <div class="task"><span class="check"></span><div><strong>Review project notes</strong><small>1:00 – 1:45 PM</small></div><span class="task-tag">Next</span></div>
+          <div class="focus-card"><div class="focus-symbol">◉</div><div><small>FOCUS SESSION</small><strong>25:00 <span>min</span></strong></div><button id="timerButton" aria-label="Start focus timer">▶</button></div>
+        </div>
+        <div class="floating-note note-top"><span>✦</span><div><strong>One thing at a time</strong><small>Focus is a superpower.</small></div></div>
+        <div class="floating-note note-bottom"><span class="note-check">✓</span><div><strong>You're on track!</strong><small>3 wins this morning</small></div></div>
+      </div>
+      <div class="hero-bottom"><span>DESIGNED FOR REAL LIFE</span><span class="bottom-line"></span><span>LESS NOISE. MORE MEANING.</span></div>
+    </section>
+
+    <section class="trust-strip">
+      <p>MADE FOR PEOPLE WHO WANT TO DO GOOD WORK</p>
+      <div class="trust-words"><span>✳ students</span><span>◈ creators</span><span>⌘ teams</span><span>✦ independent minds</span></div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="section-heading">
+        <p class="kicker">A BETTER WAY TO GET THERE</p>
+        <h2>Less overwhelm.<br><span>More “I did it.”</span></h2>
+        <p>Everything you need to feel in control of your time, without another complicated system to manage.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-lavender"><div class="feature-icon">◷</div><span class="feature-number">01 / FOCUS</span><h3>Protect your attention</h3><p>Use gentle focus sessions to give one important task your full attention, one moment at a time.</p><div class="mini-timer"><span>25:00</span><i></i><i></i><i></i><i></i><i></i></div></article>
+        <article class="feature-card feature-yellow"><div class="feature-icon">✳</div><span class="feature-number">02 / PLAN</span><h3>Make a plan that fits</h3><p>Turn big goals into a few clear priorities and leave room for life to happen.</p><div class="mini-plan"><span class="plan-dot"></span><div><b>Today's top priority</b><small>Finish the important thing</small></div><span class="plan-check">✓</span></div></article>
+        <article class="feature-card feature-mint"><div class="feature-icon">↗</div><span class="feature-number">03 / PROGRESS</span><h3>Notice every win</h3><p>See your progress add up over time and celebrate the small steps that move you forward.</p><div class="mini-chart"><span style="height:28%"></span><span style="height:43%"></span><span style="height:38%"></span><span style="height:65%"></span><span style="height:58%"></span><span style="height:82%"></span><span style="height:100%"></span></div></article>
+      </div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="how-inner">
+        <div class="how-copy"><p class="kicker">SMALL STEPS. REAL MOMENTUM.</p><h2>Your next chapter<br>starts with <span>one thing.</span></h2><p>No perfect routine required. Start small, find what works for you, and let consistency do its thing.</p><a class="text-link" href="#get-started">Find your flow <span>↗</span></a></div>
+        <div class="steps">
+          <div class="step"><span class="step-number">01</span><div><h3>Clear your mind</h3><p>Get everything out of your head and into one simple plan.</p></div><span class="step-icon">↘</span></div>
+          <div class="step"><span class="step-number">02</span><div><h3>Choose what matters</h3><p>Pick your priorities instead of trying to do everything at once.</p></div><span class="step-icon">◎</span></div>
+          <div class="step"><span class="step-number">03</span><div><h3>Show up, then repeat</h3><p>Focus on the next step and give yourself credit for progress.</p></div><span class="step-icon">✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section" id="testimonials">
+      <div class="quote-mark">“</div><p class="quote">I stopped trying to have the perfect day and started making progress on the days I actually have.</p><div class="quote-person"><div class="quote-avatar">SR</div><div><strong>Sam Rivera</strong><small>Designer & FocusFlow early user</small></div></div>
+    </section>
+
+    <section class="cta-section" id="get-started">
+      <div class="cta-orb orb-a"></div><div class="cta-orb orb-b"></div>
+      <div class="cta-content"><p class="kicker">YOUR TIME IS YOURS</p><h2>Ready to find<br>your <span>flow?</span></h2><p>Start with a clearer plan and one focused step. Your future self will thank you.</p><a class="button cta-button" href="mailto:hello@focusflow.example?subject=FocusFlow%20early%20access">Get early access <span>↗</span></a><small>Free to get started · No credit card needed</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-icon">f</span> focusflow<span class="period">.</span></a><p>Make room for what matters.</p><div class="footer-links"><a href="#features">Features</a><a href="#get-started">Get started</a><a href="mailto:hello@focusflow.example">Contact</a></div><small>© <span id="year"></span> FocusFlow. Made for better days.</small></footer>
+</body>
+</html>
